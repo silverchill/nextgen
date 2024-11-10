@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Proxima Nova, sans-serif;
+}
+
+.bigger-div {
+    display: flex;
+    justify-content: center;
+}
+
+.full-div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* width: 600px; */
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    background-color: yellow;
+}
+
+.top-div {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #ab2656;
+    line-height: 1.75;
+    justify-content: center;
+}
+
+.top-div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lic {
+    color: #4D4D4D;
+    line-height: 1.5;
+}
+
+.lice {
+    display: flex;
+    border-radius: 6px;
+}
+
+.wel {
+    color: #444444;
+    font-weight: 700;
+    line-height: 1.334;
+}
+
+.box {
+    display: block;
+    width: 2.5rem;
+    height: .25rem;
+    margin-top: .75rem;
+    background-color: rgb(171 11 75);
+}
+
+.pswd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.under-mail {
+    margin-top: 3px;
+    /* text-align: left; */
+    line-height: 1.6;
+}
+
+.space {
+    background-color: #AB0B4b;
+    margin: 12px 0px 0px;
+    width: 10px;
+    height: 1px;
+}
+
+input {
+    color: #ab2656;
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.alati {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn {
+    color: #f2f2f2;
+    background-color: #ab2656
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+p a {
+    text-decoration: none;
+    color: #ab2656
+}

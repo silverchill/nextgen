@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="name.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="top-div">
+        <div class="container">
+            <div class="child1">
+                <h1>School Registration Form</h1>
+            </div>
+            <div class="child2">
+                <form>
+                    <label for="Pname">Parent Name</label><br>
+                    <div class="name-row">
+                    <input type="text" id="Pname" name="first_name" placeholder="First">
+                    <input type="text" id="Pname" name="last_name" placeholder="Last"><br>
+                    </div>
+
+                    <label for="Pmail">Parent Email</label><br>
+                    <input type="email" id="Pmail" name="Parent_email" placeholder="Email" autocomplete="off"><br>
+
+                    <label for="Pphone">Parent Phone</label><br>
+                    <input type="number" id="Pphone" name="phone_nu"><br>
+
+                    <label for="Sname">Student Name</label><br>
+                    <div class="name-row">
+                    <input type="text" id="Sname" name="first_name" placeholder="First">
+                    <input type="text" id="Sname" name="last_name" placeholder="Last"><br>
+                    </div>
+
+                    <label for="DOB">Date of Birth</label><br>
+                    <input type="date" id="DOB" name="DOB"><br>
+
+                    <label for="pswd">Password</label><br>
+                    <input type="password" id="pswd" name="pswd" autocomplete="off"><br>
+
+                    <label for="Cpswd">Confirm Password</label><br>
+                    <input type="password" id="Cpswd" name="Cpswd" autocomplete="off"><br>
+                    <div >
+                    <fieldset class="checkbox">
+                        <legend>Please select the subjects to study:</legend>
+                            <div>
+                                <input type="checkbox" id="Maths" name="Maths" value="Mathematics">
+                                <label for="Maths">Mathematics</label>
+                                <input type="checkbox" id="Hist" name="Hist" value="History
+                                ">
+                                <label for="Hist">History
+                                </label><br>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Sci" name="Sci" value="Science">
+                                <label for="Sci">Science</label>
+                                <input type="checkbox" id="Geo" name="Geo" value="Geography">
+                                <label for="Geo">Geography</label><br>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Chem" name="Chem" value="Chemistry">
+                                <label for="Chem">Chemistry</label>
+                                <input type="checkbox" id="Accont" name="Accont" value="Accounting">
+                                <label for="Accont">Accounting</label><br>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Bio" name="Bio" value="Biology">
+                                <label for="Bio">Biology</label>
+                                <input type="checkbox" id="Busi" name="Busi" value="Business Studies">
+                                <label for="Busi">Business Studies</label><br>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Phy" name="Phy" value="Physics">
+                                <label for="Phy">Physics</label>
+                                <input type="checkbox" id="Comp" name="Comp" value="Computer Science">
+                                <label for="Comp">Computer Science</label><br>
+                            </div>
+                    </fieldset>
+                    </div>
+                    <input type="submit" value="SUBMIT FORM"><br>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-container {
+    /* background-color: yellow; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    /* border-radius: 7px; */
+    justify-content: space-between;
+}
+
+.top-div {
+    flex-direction: row;
+    display: flex;
+    flex: 5%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+.mini-btn {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 545;
+    background-color: rgb(251, 245, 245);
+}
+
+.mini-btn:hover {
+    background-color: rgb(253, 250, 250);
+}
+
+.log-btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bg-cr {
+    background-color: black;
+    color: white;
+}
+
+.midd-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 90%;
+    width: 100vw;
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+    /* border: 10px solid #ccc; */
+    border-radius: 7px;
+    line-height: 5;
+}
+
+.button {
+    line-height: 5;
+}
+
+.midd-div > div {
+    width: 60%;
+    justify-items: center;
+
+    /* background-color: blue; */
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+input {
+    width: 100%;
+    line-height: 2.5;
+    outline: none;
+    border: none;
+    background-color: rgb(244, 234, 234);
+}
+
+/* ::placeholder {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+} */
+
+.input {
+    position: relative;
+    line-height: 4rem;
+    border-radius: 50px;
+    border: 2px;
+    padding: 0px 20px;
+    border: 2px;
+    background-color: rgb(244, 234, 234);
+}
+
+.midd-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 200px;
+    gap: 1%;
+}
+
+.midd-btn > div {
+    display: flex;
+    position: relative;
+    line-height: 3.5rem;
+    border-radius: 30px;
+    border: 1px solid lightblue;
+    /* background-color: blanchedalmond; */
+    min-width: 130px;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    color: rgb(147, 140, 140);
+}
+
+.txt:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+.footer {
+    flex-direction: column;
+    display: flex;
+    flex: 5%;
+    color: rgb(110, 107, 107);
+    font-size: 10px;
+}
+
+a {
+    color: black;
+}
+
+
+/* .container > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */

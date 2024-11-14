@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
+    font-family: sans-serif, Arial Narrow;
 }
 
 a {
@@ -16,44 +16,93 @@ a:hover {
 .full-section {
     height: 100vh;
     display: flex;
-    max-width: 80%;
-    min-width: 20%;
+    /* background-color: black; */
     flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    background-color: black;
+}
+
+.top-div {
+    flex: 1.5;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* background-color: yellow; */
 }
 
 .mid-div {
-
-    border: 1px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    font-size: 20px;
+    /* border: 1px; */
     border-color: rgb(252, 251, 251);
+    background-color: rgb(246, 247, 248);
+}
+
+.bottom-div {
+    flex: 2;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 20px;
+    /* background-color: brown; */
+}
+
+.bottom-div a {
+    color: black;
+}
+
+.bottom-div a:hover {
+    color: blue;
 }
 
 .user-input {
+    flex: 4;
     border-radius: 5px;
-    background-color: red;
+    line-height: 1.7;
+    border-radius: 8px;
     padding: 16px;
+    border: 2px solid lightblue;
+    /* background-color: pink; */
+}
+
+ input {
+    border-radius: 8px;
+    line-height: 3;
+    display: block;
+    width: 100%;
+    border: 2px solid lightblue;
+}
+
+.mid-down {
+    flex: 1;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid lightblue;
+    /* background-color: pink; */
 }
 
 .pswd {
     display: flex;
     justify-content: space-between;
+    line-height: 3;
 }
 
-input {
-    display: block;
-    width: 100%;
+.pswd a:hover {
+    text-decoration: none;
 }
 
 .sign-box {
-    background-color: rgb(4, 179, 4);
-}
-
-.mid-down {
-    background-color: red;
-    margin-top: 20px;
-    border-radius: 5px;
-    text-align: center;
+    font-weight: 600;
+    background-color: rgb(21, 135, 21);
+    border: none;
 }
 

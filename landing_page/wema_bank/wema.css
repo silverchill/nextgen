@@ -1,159 +1,136 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Proxima Nova, sans-serif;
 }
 
-.icon {
-    fill:  #ab2656;
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    font-size: 1.3928571428571428rem;
-    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    flex-shrink: 0;
-    user-select: none;
-}
-
-.bigger-div {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-/* @media screen and (min-width: 100px) {
-    .left-div {
-        background-color: yellow;
-    }
-} */
-
-
-.left-div {
+.full-session {
     display: flex;
     height: 100vh;
-    flex: 55%;
-    background-color: #ab2656;
-    min-height: 100vh;
 }
 
-.right-div {
-    flex: 45%;
+.login-session {
+    flex: 1;
+    display: flex;
+    width: 100vw;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-session {
+    flex: 1.2;
+    background-color: brown;
+}
+
+.top-right-session {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    align-items: center;
-    /* background-color: palegreen; */
+    width: 70%;
+    /* background-color: lightblue; */
 }
 
-.right-div > div {
+.top-session {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+
+.inner-top-session {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #ab2656;
+    font-size: 20px;
+}
+
+.inner-bottom-session {
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: center;
-    width: 70%;
-    height: 100vh;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
-form input[type="email"],
-form input[type="submit"],
-form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 7px;
-}
-
-.top-div {
-    display: flex;
-    width: 100%;
-    text-decoration: none;
-    color: #ab2656;
-    line-height: 1.75;
-    justify-content: center;
-}
-
-.top-div:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.lic {
+.inner-bottom-session h2 {
+    /* padding-left: 80px; */
     color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 1.5;
-}
-
-.lice {
-    display: flex;
-    border-radius: 6px;
-}
-
-.wel {
-    color: #444444;
-    font-weight: 700;
-    line-height: 1.334;
+    padding: 6px 16px;
+    /* padding-top: 20px; */
 }
 
 .box {
     display: block;
-    width: 2.5rem;
-    height: .25rem;
-    margin-top: .75rem;
     background-color: rgb(171 11 75);
+    height: 0.25rem;
+    width: 2.5rem;
+    margin-top: .75rem;
+}
+
+.middle-session {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 0 10px;
+    /* background-color: blueviolet; */
+}
+
+input, button {
+    line-height: 2.5;
+    border-radius: 7px;
+    margin: 7px 0;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.fpswd {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .pswd {
     display: flex;
-    justify-content: space-between;
-}
-
-.under-mail {
-    margin-top: 3px;
-    /* text-align: left; */
-    line-height: 1.6;
-}
-
-.space {
-    background-color: #AB0B4b;
-    margin: 12px 0px 0px;
-    width: 10px;
-    height: 1px;
-}
-
-input {
-    color: #ab2656;
-    height: 100%;
-    width: 100%;
-    display: block;
-    padding: 6px 0 7px;
-    min-width: 0;
-    background: none;
-    box-sizing: content-box;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-.alati {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 5px;
+    padding-bottom: 15px;
 }
 
 .login-btn {
+    margin-top: 45px;
+    line-height: 2.5;
     color: #f2f2f2;
+    vertical-align: top;
+    font-family: Proxima Nova, sans-serif;
     background-color: #ab2656;
 }
 
-.login-btn:hover {
-    cursor: pointer;
+.sign-up {
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 15px;
 }
 
-.footer {
-    display: flex;
+.bottom-right-session{
+    flex: 0.1;
     width: 100%;
-    justify-content: right;
-}
-
-p a {
-    text-decoration: none;
-    color: #ab2656
+    /* background: lightgreen; */
 }

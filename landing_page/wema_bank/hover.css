@@ -1,0 +1,79 @@
+.bottom-right-session {
+    flex: 0.1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 30px;
+    align-items: end;
+    /* background: lightgreen; */
+    position: relative;
+    /* pointer-events: none; */
+}
+
+.bottom-right-session:hover + .next-page {
+    /* display: block; */
+    visibility: visible;
+    opacity: 1;
+}
+.bottom-right-session:hover ~ .full-session {
+    background-color: #4d4d4d;
+}
+
+.M-btn {
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    font-weight: 200;
+    white-space: nowrap;
+}
+
+.next-page {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    /* pointer-events: none; */
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    width: 880px;
+    height: 450px;
+    border: 4px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    padding: 40px;
+}
+
+.parag {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.next-pg-btn {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.next-pg-btn button {
+    width: 100%;
+    border: none;
+}
+
+.next-pg-btn .D-btn .P-btn {
+    color: rgb(171 38 86);
+}
+
+.A-btn {
+    background-color: #ab2656;
+    color: white;
+}
+
+.next-page a {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}

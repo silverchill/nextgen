@@ -1,0 +1,47 @@
+.img-session {
+    flex: 1.17;
+    position: relative;
+    background-image: url(pics/wema_bg_img.png);
+    background-size: cover;
+}
+
+
+.relative {
+    position: absolute;
+    left: 280px;
+    bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    color: white;
+    padding-left: 2px;
+}
+
+.lets-talk {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.contact {
+    display: flex;
+    font-size: 22px;
+    margin-bottom: 45px;
+    font-weight: 100;
+}
+
+.contact a {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* .img img {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 250px;
+    bottom: 90px;
+} */

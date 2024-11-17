@@ -3,60 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zen.css">
-    <title>WEMA BANK LANDING PAGE</title>
+    <title>Wema Bank Login Page</title>
+    <link rel="stylesheet" href="wema.css">
 </head>
 <body>
-    <div class="bigger-div">
-        <div class="left-div">
-            <img src="wema_bank.png" alt="" <style width="100%" height="100%">>
-        </div>
-        <div class="right-div">
-            <!-- Go to website div -->
-            <div class="right-inner-div">
-            <div>
-                <a class="top-div" href="">Go to ALAT Website</a>
-            </div>
-            <!-- License div -->
-            <div class="">
-                <img src="wema_icons.svg" alt="" <style width=100px height=100px>>
-                <div class="lice">
-                    <p class="lic">Licensed by the CBN</p>
-                    <img src="cbn.png" alt="cbn logo">
-                </div>
-                <h1 class="wel">Welcome Back!
-                    <span class="box"></span>
-                </h1>
-            </div>
-            <!-- Username label-->
-            <div class="">
-                <form>
-                    <div>
-                        <label for="Unm">Email Address/Username</label>
+    <div class="full-session">
+        <!-- left session -->
+        <div class="img-session"></div>
+        <!-- right session -->
+        <div class="login-session">
+            <!-- top div -->
+            <div class="top-right-session">
+                <div class="top-session">
+                    <div class="inner-top-session">
+                        <a href="">Go to ALAT Website</a>
+                    </div>
+                    <div class="inner-bottom-session">
+                        <img src="" alt="">
+                        <h2>Licensed by the CBN</h2>
+                        <img src="" alt="">
                         <div>
-                            <input class="mail-box" type="email" id="email" autocomplete="off">
+                            <h1>Welcome Back!
+                                <span class="box"></span>
+                            </h1>
                         </div>
-                        <p class="under-mail">Please provide a valid email address</p>
                     </div>
-                </form>
-                <!-- password -->
-                <div class="pswd">
-                    <p>Password</p>
-                    <p><a href="">password?</a></p>
                 </div>
-                <form>
-                    <div>
-                        <input type="password" id="password" autocomplete="off" value>
-                        <p class="under-mail">Please provide your password</p>
-                        <input class="login-btn" type="submit" value="Login">
+                <!-- Form session -->
+                <div class="middle-session">
+                    <div class="mail">
+                        <label for="mail">Email Address/Username</label>
+                        <input type="email" id="mail" required>
+                        <p>Please provide a valid email address</p>
                     </div>
-                </form>
-                <p class="alati">New to ALAT? <a href="">Sign up</a></p>
+                    <div class="fpswd">
+                        <p>Password</p>
+                        <p><a href="">Forgot password?</a></p>
+                    </div>
+                    <div class="pswd">
+                        <input type="password" id="mail" required>
+                        <p>Please provide your password</p>
+                        <button class="login-btn">Login</button>
+                    </div>
+                    <div class="sign-up">
+                        <p><h2>New to ALAT? <a href="">Sign up</a></h2></p>
+                    </div>
+                </div>
             </div>
-            <!-- footer -->
-            <div class="footer">
+            <!-- bottom div -->
+            <div class="bottom-right-session">
                 <button>Manage Consent</button>
-            </div>
             </div>
         </div>
     </div>

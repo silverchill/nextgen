@@ -5,9 +5,14 @@
     font-family: Proxima Nova, sans-serif;
 }
 
+a {
+    color: rgb(171 38 86);
+}
+
 .full-session {
     display: flex;
     height: 100vh;
+    transition: background-color 0.3s ease;
 }
 
 .login-session {
@@ -17,18 +22,14 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-}
-
-.img-session {
-    flex: 1.2;
-    background-color: brown;
+    /* position: relative; */
 }
 
 .top-right-session {
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 75%;
     /* background-color: lightblue; */
 }
 
@@ -56,16 +57,43 @@
     justify-content: space-between;
     margin-bottom: 30px;
     margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 0;
 }
 
 .inner-bottom-session h2 {
-    /* padding-left: 80px; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.alat-icon-line {
+    display: flex;
+}
+
+.alat-icon-line img {
+    width: 70px;
+}
+
+.img2 {
+    display: flex;
+}
+
+.img2 h2 {
     color: #4D4D4D;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
-    padding: 6px 16px;
-    /* padding-top: 20px; */
+    padding-right: 0px;
+}
+
+.img2 img {
+    padding-left: 0px;
+}
+
+h1 {
+    color: #444444;
+    font-weight: 600;
+    font-size: 1.75rem;
 }
 
 .box {
@@ -91,11 +119,15 @@ input, button {
     margin: 7px 0;
     padding-bottom: 5px;
     font-size: 20px;
+    outline: none;
+    padding-left: 15px;
 }
 
 .mail {
     display: flex;
     flex-direction: column;
+    color: #ab2656;
+    font-size: 20px;
     margin-top: 18px;
 }
 
@@ -127,10 +159,4 @@ input, button {
     color: #4D4D4D;
     text-align: center;
     margin-top: 15px;
-}
-
-.bottom-right-session{
-    flex: 0.1;
-    width: 100%;
-    /* background: lightgreen; */
 }

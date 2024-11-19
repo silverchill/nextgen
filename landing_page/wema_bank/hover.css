@@ -7,8 +7,6 @@
     padding-top: 30px;
     align-items: end;
     /* background: lightgreen; */
-    position: relative;
-    /* pointer-events: none; */
 }
 
 .bottom-right-session:hover + .next-page {
@@ -21,6 +19,7 @@
 }
 
 .M-btn {
+    position: relative;
     font-size: 18px;
     height: 40px;
     border: none;
@@ -60,7 +59,6 @@
 
 .next-pg-btn button {
     width: 100%;
-    /* border: 1px; */
 }
 
 .next-pg-btn .D-btn .P-btn {

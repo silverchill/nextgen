@@ -13,8 +13,7 @@ a {
 .full-session {
     display: flex;
     height: 100vh;
-    overflow-y: scroll;
-    /* transition: background-color 0.3s ease; */
+    max-height: 100vh;
 }
 
 .login-session {
@@ -23,6 +22,7 @@ a {
     width: 100vw;
     align-items: center;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .top-right-session {
@@ -31,14 +31,12 @@ a {
     flex-direction: column;
     width: 560px;
     padding-left: 25px;
-    /* background-color: lightblue; */
 }
 
 .top-session {
     flex: 0.8;
     display: flex;
     flex-direction: column;
-    /* background-color: yellow; */
 }
 
 .inner-top-session {
@@ -114,7 +112,12 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 0 10px;
-    /* background-color: blueviolet; */
+}
+
+/* To set input not to override */
+input{
+    background-color: transparent;
+    color: #bebcbc;
 }
 
 input, button {
@@ -124,7 +127,7 @@ input, button {
     padding-bottom: 5px;
     font-size: 20px;
     outline: none;
-    border: 1px solid lightgray;
+    border: 1px solid #bebcbc;
     padding-left: 15px;
 }
 
@@ -158,7 +161,6 @@ input, button {
     line-height: 2.5;
     color: #f2f2f2;
     vertical-align: top;
-    font-family: Proxima Nova, sans-serif;
     background-color: #ab2656;
 }
 
@@ -170,11 +172,22 @@ input, button {
 
 @media (max-width: 1020px) {
     .img-session {
-        display: none;
+        display: none !important;
     }
     .top-right-session {
         max-width: 90%;
     }
+    .next-pg-btn {
+        display: flex;
+        flex-direction: column;
+    }
+    /* .next-pg-btn {
+        top: 25px;
+        right: 25px;
+        width: 90%;
+        height: 900px;
+
+    } */
 }
 
 @media (min-width: 1021px) and (max-width: 1350px) {
@@ -187,7 +200,4 @@ input, button {
     .top-right-session {
         max-width: 85%;
     }
-    /* .relative {
-        background-color: yellow;
-    } */
 }

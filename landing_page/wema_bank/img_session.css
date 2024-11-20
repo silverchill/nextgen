@@ -2,15 +2,16 @@
     flex: 1.17;
     background-image: url(pics/wema_bg_img.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .relative {
     display: flex;
     flex-direction: column;
-    margin-left: 30%;
-    margin-top: 610px;
-    justify-content: start;
     color: white;
+    margin-bottom: 12%;
 }
 
 .lets-talk {

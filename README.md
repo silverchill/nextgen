@@ -1,2 +1,2 @@
 # nextgen
-Assignments done with next gen programme
+Landing pages assignments done with next gen programme

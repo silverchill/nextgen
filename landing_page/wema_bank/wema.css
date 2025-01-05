@@ -181,13 +181,7 @@ input, button {
         display: flex;
         flex-direction: column;
     }
-    /* .next-pg-btn {
-        top: 25px;
-        right: 25px;
-        width: 90%;
-        height: 900px;
 
-    } */
 }
 
 @media (min-width: 1021px) and (max-width: 1350px) {
